@@ -17,3 +17,21 @@ because of issue in block scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity,accountState]);
+
+// var   ==> It gets hoisted to the top of its scope and initialized undefined.
+//           It can be updated or re-declared.
+//           Can be declared without initialization.
+//           Can be accessed without initialization as its default value is “undefined”.
+
+
+// let   ==> It also got hoisted to the top of its scope but didn't initialize.
+//           It can only be updated and can't be re-declared.
+//           Can be declared without initialization.
+//           Cannot be accessed without initialization, leading to ‘referenceError’. 
+
+// const ==> It also got hoisted to the top of its scope but didn't initialize.
+//           It can't be updated or re-declared.
+//           Cannot be declared without initialization.  
+//           Cannot be accessed without initialization, as it cannot be declared without    
+//           initialization in the first place.
+	
