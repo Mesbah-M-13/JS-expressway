@@ -9,7 +9,7 @@ let scoreOne = "33abc"; //string that can't convert to number("Himel") will give
 
 let valueInNumber1 = Number(scoreOne); // number conversion
 
-// console.log(scoreOne);
+//console.log(scoreOne);
 // console.log(valueInNumber1);
 // console.log(typeof(valueInNumber1));
 // console.log(typeof valueInNumber1 );
@@ -41,32 +41,30 @@ let valueInNumber4 = Number(scoreFour);
 // "33abc" => NaN
 //  true => 1; false => 0
 
-
 // Boolean Conversion(b)
 // 1. num ==> (b)
-let isLoggedIn = 1
+let isLoggedIn = 1;
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 // console.log(booleanIsLoggedIn);
 // console.log(typeof(booleanIsLoggedIn));
 
 // 2. empty string ==> (b)
-let isLoggedIn1 = ""
+let isLoggedIn1 = "";
 
-let booleanIsLoggedIn1= Boolean(isLoggedIn1)
+let booleanIsLoggedIn1 = Boolean(isLoggedIn1);
 
 // console.log(booleanIsLoggedIn1);
 // console.log(typeof(booleanIsLoggedIn));
 
 // number to string
-let someNumber = 44
+let someNumber = 44;
 
-let stringNumber = String(someNumber)
+let stringNumber = String(someNumber);
 
-console.log(stringNumber);
-console.log(typeof(stringNumber));
-
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
 
 // 1 => true; 0 => false
 // "" => false
