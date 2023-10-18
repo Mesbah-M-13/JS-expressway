@@ -48,16 +48,24 @@ let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn);
-console.log(typeof(booleanIsLoggedIn));
+// console.log(booleanIsLoggedIn);
+// console.log(typeof(booleanIsLoggedIn));
 
 // 2. empty string ==> (b)
 let isLoggedIn1 = ""
 
 let booleanIsLoggedIn1= Boolean(isLoggedIn1)
 
-console.log(booleanIsLoggedIn1);
-console.log(typeof(booleanIsLoggedIn));
+// console.log(booleanIsLoggedIn1);
+// console.log(typeof(booleanIsLoggedIn));
+
+// number to string
+let someNumber = 44
+
+let stringNumber = String(someNumber)
+
+console.log(stringNumber);
+console.log(typeof(stringNumber));
 
 
 // 1 => true; 0 => false
