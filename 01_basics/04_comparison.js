@@ -18,7 +18,7 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
-// avoid the above type of comparison (null , undefined)
+// avoid the above type of comparisons (null , undefined)
 
 // ===   checks values as well as datatype
 
