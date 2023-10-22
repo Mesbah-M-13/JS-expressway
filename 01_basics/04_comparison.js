@@ -18,6 +18,8 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
-// === 
+// avoid the above type of comparison (null , undefined)
 
-console.log("2" === 2);
+// ===   checks values as well as datatype
+
+console.log("2" === 2); 
