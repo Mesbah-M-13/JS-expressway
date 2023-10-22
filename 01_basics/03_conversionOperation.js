@@ -70,24 +70,41 @@ let stringNumber = String(someNumber);
 // "" => false
 // "hitesh" => true
 
-// let score = 55;
-// let score_1 = "55abc";
+// +++++++++++ Operations +++++++++++
+let value = 3
+let negValue = -value
+// console.log(negValue);
 
-// console.log(typeof(score));
-// console.log(typeof score); // using method --> inside parenthesis
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
 
-// console.log(typeof(score_1));
-// console.log(typeof score_1);
+let str1 = "hello"
+let str2 = " hitesh"
 
-// let valueInNumber = Number(score_1)
+let str3 = str1 + str2
+// console.log(str3);
 
-// console.log(valueInNumber);
-// console.log(typeof valueInNumber);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
 
-// console.log(typeof NaN); ==> number
+// console.log( (3 + 4) * 5 % 3);
 
-// let score_2 = null
+// console.log(+true);
+// console.log(+"");
 
-// let valueInNumber_2 = Number(score_2)
-// console.log(valueInNumber_2);
-// console.log(typeof valueInNumber_2);
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
