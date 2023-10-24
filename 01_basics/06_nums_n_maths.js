@@ -11,10 +11,13 @@ const balance = new Number(100.947);
 
 const otherNumber = 123.8966;
 
-//console.log(otherNumber.toPrecision(5));
+// console.log(otherNumber.toPrecision(5));
+// console.log(parseInt(500.545));
+// console.log(parseFloat(500.545));
+
 
 const hundreds = 1000000;
-//console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
