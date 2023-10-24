@@ -18,7 +18,7 @@ const hundreds = 1000000;
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
-// console.log(Math);
+// console.log(Math); --> use it in browser
 // console.log(Math.abs(-4));
 // console.log(Math.round(4.6));
 // console.log(Math.ceil(4.2));
