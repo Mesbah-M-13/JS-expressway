@@ -1,7 +1,7 @@
 const myDate = new Date();
 console.log(myDate);
-console.log(myDate.toString());
-console.log(myDate.toLocaleString());
+// console.log(myDate.toString());
+// console.log(myDate.toLocaleString());
 // console.log(myDate.toLocaleDateString());
 // console.log(myDate.toLocaleTimeString());
 // console.log(myDate.toDateString());
@@ -11,8 +11,8 @@ console.log(myDate.toLocaleString());
 
 // let myCreatedDate = new Date(2023, 0, 23)
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
-let myCreatedDate = new Date("01-14-2023");
+// let myCreatedDate = new Date("2023-01-14") // yyyy-mm-dd
+let myCreatedDate = new Date("01-14-2023"); // mm-dd-yyyy
 // console.log(myCreatedDate.toLocaleString());
 
 //  ✅ ----- INTERVIEW-----✅ convert a date to milisec to sec
@@ -35,14 +35,16 @@ newDate.toLocaleString("default", {
   weekday: "long",
 });
 
-// const anotherDate = new Date()
-// anotherDate.toLocaleString('default',{
-//     weekday: "long",
-//     year: "numeric",
-//     month: "long",
-//     day: "numeric",
-// })
-// console.log(anotherDate.year);
+const anotherDate = new Date();
+const anotherDateInfo = anotherDate.toLocaleString("default", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+});
+console.log(anotherDateInfo);
 
 const date = new Date(Date.UTC(2023, 0, 22));
 // console.log(date);
@@ -57,13 +59,12 @@ const options = {
 
 let myDateTime = new Date();
 
-let myTime = new Date(myDateTime).toLocaleString("en-IN", {
+let myTime = myDateTime.toLocaleString("en-IN", {
   hour: "2-digit",
   minute: "2-digit",
   timeZoneName: "long",
 });
-
-// console.log(myTime);
+//console.log(myTime);
 
 /*
 to know more options: https://www.w3schools.com/jsref/jsref_tolocalestring.asp
