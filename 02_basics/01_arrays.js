@@ -2,18 +2,18 @@
 // [] --> square brackets
 // {} --> curly braces
 
-
 // slice, splice
+const myArrCopy = [0, 1, 2, 3, 4, 5];
 
-//console.log("A ", myArr);
+//console.log("A ", myArrCopy);
 
-// const myn1 = myArr.slice(1, 3);
+// const myn1 = myArrCopy.slice(1, 3);
 
 // console.log(myn1);
-// console.log("B ", myArr);
+// console.log("B ", myArrCopy);
 
-// const myn2 = myArr.splice(1, 3);
-// console.log("C ", myArr);
+// const myn2 = myArrCopy.splice(1, 3);
+// console.log("C ", myArrCopy);
 // console.log(myn2);
 
 //✅ Array --> Stores a collection of multiple items under a single variable name
