@@ -19,7 +19,9 @@ const myArrCopy = [0, 1, 2, 3, 4, 5];
 //✅ Array --> Stores a collection of multiple items under a single variable name
 
 /*
-    1.JavaScript arrays are resizable and can contain a mix of different data types
+    1.JavaScript arrays are resizable and can contain a mix of different data types.
+    const myAnotherArr = [9, 8, 7, 6, 5, 4, true, "Himel"];
+
 */
 const myArray = [0,1,2,3];
 const myAnotherArr = [9, 8, 7, 6, 5, 4, true, "Himel"];
