@@ -64,20 +64,23 @@ const course = {
   courseInstructor: "himel",
 };
 
-// console.log(course.courseInstructor);
-const { courseInstructor: instructor } = course;
 
-//console.log(courseInstructor);
+//✅🚩 destructuring
+// course.courseInstructor
+const { courseInstructor } = course;
+console.log(courseInstructor);
+const { courseInstructor: instructor } = course; // when name is complicated and need to use another name
 console.log(instructor);
 
 
 // JSON talk
 
-
+// same as object,but it uses keys and values both as strings
 // {
 //     "name": "himel",
 //     "coursename": "js in bangla",
 //     "price": "free"
 // }
 
+// in API when data comes as array of objects
 [{}, {}, {}];
