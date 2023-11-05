@@ -54,9 +54,8 @@ const users = [
 users[1].email;
 // console.log(Object.keys(users));
 // console.log(Object.values(users));
-
+// console.log(Object.entries(users));
 // console.log(tinderUser);
-
 
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
