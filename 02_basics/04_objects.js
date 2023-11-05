@@ -9,6 +9,11 @@ tinderUser.isLoggedIn = false;
 
 // console.log(tinderUser);
 
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
 const regularUser = {
   email: "some@gmail.com",
   fullname: {
@@ -52,25 +57,23 @@ users[1].email;
 
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 const course = {
   coursename: "js in bangla",
   price: "999",
-  courseInstructor: "himel",
+  courseInstructor: "M.Himel",
 };
 
 
 //✅🚩 destructuring
 // course.courseInstructor
 const { courseInstructor } = course;
-console.log(courseInstructor);
+// console.log(courseInstructor);
 const { courseInstructor: instructor } = course; // when name is complicated and need to use another name
-console.log(instructor);
+// console.log(instructor);
 
 
 // JSON talk
@@ -82,5 +85,5 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-// in API when data comes as array of objects
+// in API when data comes as array of objects form
 [{}, {}, {}];
