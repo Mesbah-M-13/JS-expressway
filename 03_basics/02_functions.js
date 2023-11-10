@@ -14,7 +14,7 @@ const user={
 }
 
 function getUserInfo(data) {
-  console.log(`Name is ${data.name} and he is ${data.age} years old`);
+//  console.log(`Name is ${data.name} and he is ${data.age} years old`);
 }
 // getUserInfo(user)
 // also we can pass object here directly
@@ -23,3 +23,11 @@ getUserInfo({
   name: "Mesbah",
   age:27,
 })
+
+const myNewArray = [200, 350, 500,550]
+function getArrayValue(value) {
+  return value[2]
+}
+console.log(getArrayValue(myNewArray)
+);// also we can pass an array here directly
+console.log(getArrayValue([300,200,450,500]));
