@@ -31,9 +31,9 @@ if (true) {
     const username = "himel"
     if (username === "himel") {
         const website = " youtube"
-        // console.log(username + website);
+        console.log(username + website);
     }
-    // console.log(website);
+//    console.log(website);
 }
 
 // console.log(username);
@@ -41,17 +41,15 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-
-console.log(addone(5))
-// regular function
+// console.log(addone(5))
+// regular function expression
 function addone(num){
     return num + 1
 }
 
-
-
-addTwo(5)
+addTwo(10)
 // function expression
 const addTwo = function(num){
     return num + 2
 }
+// console.log(addTwo(10));
