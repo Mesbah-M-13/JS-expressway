@@ -1,8 +1,25 @@
-let result=0;
+let result = 0;
 function calculateCartPrice(...num) {
-  for (let i = 0;i<num.length-1;i++) {
+  for (const i of num) {
     result += i;
-    console.log(result);
   }
+  return result;
 }
-console.log(calculateCartPrice(4, 34, 4, 12));
+// add values of an array using function
+// console.log(calculateCartPrice(4, 34, 4, 12));
+
+const user={
+  name:"Meril",
+  age: 23,
+}
+
+function getUserInfo(data) {
+  console.log(`Name is ${data.name} and he is ${data.age} years old`);
+}
+// getUserInfo(user)
+// also we can pass object here directly
+
+getUserInfo({
+  name: "Mesbah",
+  age:27,
+})
