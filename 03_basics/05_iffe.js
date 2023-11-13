@@ -1,5 +1,7 @@
 //Immediately Invoked Function Expressions IIFE
+
 (function Hello() {
+    //✅ named iffe 
     console.log("Hello world,DB connected...");
 })(); // ; --> to end context of an IFFE
 
@@ -8,7 +10,9 @@
 console.log("DB connected two");
 })();
 
+
 // pass parameter and arguments in an IFFE
+
 ((userName)=>{
     console.log(`Good Morning,${userName}`);
 })("Himel")
